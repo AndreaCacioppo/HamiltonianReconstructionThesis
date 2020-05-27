@@ -20,24 +20,26 @@ Python and pyTorch and TensorboardX need to be installed.
 
 ## Structure of the code
 
-The main file is called 1d.py while the tunable hyperparameters are contained in CustomModules/Parameters.py (these are the only two files needed to be modified running a test).
+The file to execute is named main.py, while the file containing all the tunable parameters is named CustomModules/Parameters.py (this and CustomModules/TightBinding.py are the only two files to be modified).
 
 ## Running the tests
 
-The only file to be modified is CustomModules/Parameters.py.
+In CustomModules/Parameters.py:
 
 - Set the parameters of the artificial Hamiltonian
+- Set the values of the hyperparameters
+
+In CustomModules/TightBinding.py:
+
+-Set the initial guesses for the Hamiltonian parameters with torch.randn and torch.rand
+
+To read the results:
+
 - In order to read the obtained Hamiltonian parameters and the training procedure run on a terminal: tensorboard --logdir /path/HamiltoninReconstructionThesis/Tensorboard1d and open the indicated link in a browser to see the results.
 
 ## Authors
 
-* **Andrea Cacioppo** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Andrea Cacioppo** 
 
 ## Acknowledgments
 
