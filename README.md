@@ -24,10 +24,9 @@ The main file is called 1d.py while the tunable hyperparameters are contained in
 
 ## Running the tests
 
-In order to recover the parameters of an artificial Hamiltonian: 
+The only file to be modified is CustomModules/Parameters.py.
 
-- In 1d.py under "Dataset creation" set the values of the artificial Hamiltonian parameters (for example e1_true = 2.). This Hamiltonian will be used to compute the synthetic electronic bands from which the algorithm will try to recover the hamiltonian parameters. 
-- In CustomModules/Parameters.py the hyperparameters of the algorithm can be changed (a good choice is learning_rate = [0.005], batch_sizes = [16], n_hidden_neurons = [35], regularization_parameters = [0], ratios = [2], it is possible to loop over these parameters, for example with learning_rates = [1, 2, 3, 4]).
+- Set the parameters of the artificial Hamiltonian
 - In order to read the obtained Hamiltonian parameters and the training procedure run on a terminal: tensorboard --logdir /path/HamiltoninReconstructionThesis/Tensorboard1d and open the indicated link in a browser to see the results.
 
 ## Authors
