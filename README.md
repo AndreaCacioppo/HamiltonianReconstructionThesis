@@ -20,7 +20,7 @@ Python, PyTorch and TensorboardX need to be installed.
 
 ## Structure of the code
 
-The file to execute is named main.py, while the file containing all the tunable parameters is named CustomModules/Parameters.py
+The file to execute is named main.py, while the file containing all the tunable parameters is named CustomModules/Parameters.py (this is the only file to be modified).
 
 ## Running the tests
 
@@ -38,9 +38,3 @@ To read the results:
 ## Authors
 
 * **Andrea Cacioppo** 
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
