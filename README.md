@@ -16,7 +16,7 @@ To get the running code clone or download the repository into your local compute
 
 ### Prerequisites
 
-Python and pyTorch and TensorboardX need to be installed.
+Python, PyTorch and TensorboardX need to be installed.
 
 ## Structure of the code
 
