@@ -27,8 +27,8 @@ The file to execute is named main.py, while the file containing all the tunable 
 In CustomModules/Parameters.py:
 
 - Set the parameters of the artificial Hamiltonian
-- Set the values of the hyperparameters
 - Set the initial guesses for the Hamiltonian parameters
+- Set the values of the hyperparameters
 - Set additional parameters
 
 To read the results:
