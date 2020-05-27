@@ -33,7 +33,7 @@ In CustomModules/Parameters.py:
 
 To read the results:
 
-- In order to read the obtained Hamiltonian parameters and the training procedure, run on a terminal "tensorboard --logdir /path/HamiltoninReconstructionThesis/Tensorboard1d" and open the indicated link in a browser to see the results.
+- In order to read the obtained Hamiltonian parameters and the training procedure, run on a terminal "tensorboard --logdir /path/HamiltoninReconstructionThesis/Tensorboard_1d" and open the indicated link in a browser to see the results.
 
 ## Authors
 
