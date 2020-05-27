@@ -5,6 +5,9 @@ This repository contains the code necessary to reproduce the results presented i
 ## Abstract 
 
 The code available at this repository implements an algorithm whose purpose is the recovery of the Hamiltonian of a crystal in the tight-binding approximation given its electronic bands. The class of Hamiltonians which can currently be recovered is represented by the matrix
+
+![](images/Hamiltonian.png)
+
 ## Getting Started
 
 To get the running code clone or download the repository into your local computer
