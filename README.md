@@ -1,6 +1,6 @@
 # Hamiltonian Reconstruction
 
-This repository contains the code necessary to reproduce the results presented in the Master's thesis "Deep learning for the parameter estimation of tight-binding Hamiltonians" by Andrea Cacioppo, available at ...
+This repository contains the code necessary to reproduce the results presented in the Master's thesis "Deep learning for the parameter estimation of tight-binding Hamiltonians" by Andrea Cacioppo.
 
 ## Abstract 
 
