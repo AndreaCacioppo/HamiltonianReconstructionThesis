@@ -20,7 +20,7 @@ Python, PyTorch and TensorboardX need to be installed.
 
 ## Structure of the code
 
-The file to execute is named main.py, while the file containing all the tunable parameters is named CustomModules/Parameters.py (this is the only file to be modified).
+The file to execute is named main.py, while the file containing all the tunable parameters is named CustomModules/Parameters.py. the latter is the only file to be modified.
 
 ## Running the tests
 
@@ -34,6 +34,12 @@ In CustomModules/Parameters.py:
 To read the results:
 
 - In order to read the obtained Hamiltonian parameters and the training procedure run on a terminal "tensorboard --logdir /path/HamiltoninReconstructionThesis/Tensorboard_1d" and open the indicated link in a browser to read the results.
+
+### Recommended hyperparameters
+
+A good choice for the hyperparameters is the following:
+
+![](images/hyperparameters.png)
 
 ## Author
 
