@@ -38,3 +38,7 @@ To read the results:
 ## Author
 
 * **Andrea Cacioppo** 
+
+## Acknowledgements
+
+The content of this work is the implementation of a method initially proposed by Dr. Patrick Xian, Vincent Stimper and Arash Mehrjou. My thanks also go to to Vincent, Arash and Dr. Stefan Bauer for the code writing support.
