@@ -47,4 +47,4 @@ A good choice for the hyperparameters is the following:
 
 ## Acknowledgements
 
-The content of this work is the implementation of a method initially proposed by Dr. Patrick Xian, Vincent Stimper and Arash Mehrjou. My thanks also go to to Vincent, Arash and Dr. Stefan Bauer for the code writing support.
+The content of this work is the implementation of a method initially proposed by Arash Mehrjou, Dr. Patrick Xian and Vincent Stimper. My thanks also go to to Vincent, Arash and Dr. Stefan Bauer for the code writing support.
